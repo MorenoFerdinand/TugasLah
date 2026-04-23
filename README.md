@@ -42,26 +42,8 @@ UTS-Business-Intelligence/
 
 ## 🏗️ Desain Star Schema
 
+<img width="2779" height="1979" alt="star_schema_diagram" src="https://github.com/user-attachments/assets/9ed52344-bdfa-492b-b2c9-b31e7deb54e8" />
 
-```id="c4m2pq"
-dim_brand
-(brand_id PK)
-      │
-      │ brand_id (FK)
-      ▼
-                fact_cars
-        ┌──────────────────────┐
-        │ car_id (PK)          │
-        │ brand_id (FK)        │
-        │ class_id (FK)        │
-        │ drive_id (FK)        │
-        └──────────────────────┘
-           ▲             ▲
-           │             │
-           │             │
-(class_id PK)       (drive_id PK)
-dim_vehicle_class   dim_drivetrain
-```
 
 ### Tabel Dimensi
 | Tabel | Kolom Utama | Jumlah Baris |
