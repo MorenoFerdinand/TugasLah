@@ -44,19 +44,6 @@ UTS-Business-Intelligence/
 
 <img width="2779" height="1979" alt="star_schema_diagram" src="https://github.com/user-attachments/assets/9ed52344-bdfa-492b-b2c9-b31e7deb54e8" />
 
-
-### Tabel Dimensi
-| Tabel | Kolom Utama | Jumlah Baris |
-|-------|-------------|--------------|
-| dim_brand | brand_id, Brand, Region | 38 |
-| dim_vehicle_class | class_id, VehicleClass | 6 |
-| dim_drivetrain | drive_id, DriveTrain | 3 |
-
-### Tabel Fakta
-| Tabel | Kolom Utama | Jumlah Baris |
-|-------|-------------|--------------|
-| fact_cars | car_id, brand_id, class_id, drive_id, MSRP, DealerCost, HorsePower, MPG_City, MPG_Highway, Weight, Wheelbase, Length | 428 |
-
 ---
 
 ## ⚙️ Proses ETL
